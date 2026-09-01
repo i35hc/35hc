@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080b12" />
+    <meta
+      name="description"
+      content="صفحة شخصية وروابط التواصل الرسمية."
+    />
+    <title>شامخ | 🇸🇦</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700&family=Oxanium:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid-field" aria-hidden="true"></div>
+    <div class="portrait-echo" aria-hidden="true">
+      <img id="background-portrait" alt="" />
+    </div>
+    <div class="scanline" aria-hidden="true"></div>
+    <div class="edge-light edge-light-top" aria-hidden="true"></div>
+    <div class="edge-light edge-light-bottom" aria-hidden="true"></div>
+
+    <main class="profile-shell">
+      <section class="profile" aria-labelledby="profile-name">
+        <div class="avatar-system">
+          <span class="orbit orbit-dashed" aria-hidden="true"></span>
+          <span class="orbit orbit-solid" aria-hidden="true"></span>
+          <span class="orbit orbit-accent" aria-hidden="true"></span>
+          <div class="avatar-frame">
+            <img id="profile-image" class="profile-image" alt="صورة شامخ الشخصية" />
+            <span class="avatar-fallback" aria-hidden="true">شامخ</span>
+          </div>
+        </div>
+
+        <p class="eyebrow">STREAMER <span>·</span> DESIGNER <span>·</span> DEVELOPER</p>
+        <h1 id="profile-name">شامخ | 🇸🇦</h1>
+        <p class="bio" id="profile-bio"></p>
+
+        <section class="platform-section" aria-labelledby="platform-heading">
+          <h2 id="platform-heading">المنصات الشخصية</h2>
+          <nav class="links" id="social-links" aria-label="روابط المنصات"></nav>
+        </section>
+
+        <a class="support-link" id="support-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span id="support-title">ادعمني</span>
+          <i class="fa-solid fa-heart" aria-hidden="true"></i>
+          <span class="sr-only" id="support-subtitle">دعم المحتوى والمشاريع القادمة</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>© <span id="year"></span> <span id="footer-name">شامخ</span>. جميع الحقوق محفوظة.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
