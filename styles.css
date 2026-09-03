@@ -278,6 +278,12 @@ h1 {
 .kick { color: #0d1714; background: #53fc18; }
 .instagram { background: linear-gradient(135deg, #8052db, #dc356f 48%, #ffd35c); }
 
+.support-links {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
 .support-link {
   display: inline-flex;
   align-items: center;
@@ -285,7 +291,6 @@ h1 {
   gap: 0.72rem;
   width: min(100%, 42rem);
   min-height: 4.35rem;
-  margin-top: 2rem;
   color: #f4fdff;
   border: 1px solid rgba(104, 229, 245, 0.88);
   border-radius: 1rem;
@@ -308,6 +313,9 @@ h1 {
 }
 
 .support-link:hover i { color: #ff6464; transform: scale(1.15); }
+
+.store-link i { color: var(--cyan); }
+.store-link:hover i { color: var(--cyan); }
 
 footer {
   position: relative;
@@ -364,7 +372,8 @@ footer {
   .eyebrow { line-height: 1.9; }
   .bio { margin-bottom: 1.2rem; }
   .platform-section h2 { margin-bottom: 0.75rem; }
-  .support-link { min-height: 4rem; margin-top: 1.55rem; border-radius: 0.85rem; }
+  .support-links { margin-top: 1.55rem; }
+  .support-link { min-height: 4rem; border-radius: 0.85rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

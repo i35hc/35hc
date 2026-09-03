@@ -14,6 +14,11 @@ const profile = {
     title: "ادعمني",
     subtitle: "دعم المحتوى والمشاريع القادمة",
     url: "https://creators.sa/asd44i"
+  },
+  store: {
+    title: "متجر مود الشرطة",
+    subtitle: "متجر مود الشرطة",
+    url: "https://tampay.io/pay/0F74BCD9"
   }
 };
 
@@ -24,6 +29,9 @@ document.getElementById("profile-bio").textContent = profile.bio;
 document.getElementById("support-title").textContent = profile.support.title;
 document.getElementById("support-subtitle").textContent = profile.support.subtitle;
 document.getElementById("support-link").href = profile.support.url;
+document.getElementById("store-title").textContent = profile.store.title;
+document.getElementById("store-subtitle").textContent = profile.store.subtitle;
+document.getElementById("store-link").href = profile.store.url;
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const profileImage = document.getElementById("profile-image");
